@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppnetlib-client-connections", "cppnetlib-client-connections\cppnetlib-client-connections.vcxproj", "{E95F88CF-118E-477E-9E7A-BD421A48AA1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cppnetlib", "cppnetlib", "{093C3F6D-7F89-4F10-9E20-511B5256F198}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppnetlib-server-parsers", "cppnetlib-server-parsers\cppnetlib-server-parsers.vcxproj", "{FED593B4-8F60-4E55-8DCD-64FA95EEF333}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cppnetlib-uri", "cppnetlib-uri\cppnetlib-uri.vcxproj", "{744112D8-A189-4235-9B75-B7FA95340C73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E95F88CF-118E-477E-9E7A-BD421A48AA1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E95F88CF-118E-477E-9E7A-BD421A48AA1E}.Debug|Win32.Build.0 = Debug|Win32
+		{E95F88CF-118E-477E-9E7A-BD421A48AA1E}.Release|Win32.ActiveCfg = Release|Win32
+		{E95F88CF-118E-477E-9E7A-BD421A48AA1E}.Release|Win32.Build.0 = Release|Win32
+		{FED593B4-8F60-4E55-8DCD-64FA95EEF333}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FED593B4-8F60-4E55-8DCD-64FA95EEF333}.Debug|Win32.Build.0 = Debug|Win32
+		{FED593B4-8F60-4E55-8DCD-64FA95EEF333}.Release|Win32.ActiveCfg = Release|Win32
+		{FED593B4-8F60-4E55-8DCD-64FA95EEF333}.Release|Win32.Build.0 = Release|Win32
+		{744112D8-A189-4235-9B75-B7FA95340C73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{744112D8-A189-4235-9B75-B7FA95340C73}.Debug|Win32.Build.0 = Debug|Win32
+		{744112D8-A189-4235-9B75-B7FA95340C73}.Release|Win32.ActiveCfg = Release|Win32
+		{744112D8-A189-4235-9B75-B7FA95340C73}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E95F88CF-118E-477E-9E7A-BD421A48AA1E} = {093C3F6D-7F89-4F10-9E20-511B5256F198}
+		{FED593B4-8F60-4E55-8DCD-64FA95EEF333} = {093C3F6D-7F89-4F10-9E20-511B5256F198}
+		{744112D8-A189-4235-9B75-B7FA95340C73} = {093C3F6D-7F89-4F10-9E20-511B5256F198}
+	EndGlobalSection
+EndGlobal
